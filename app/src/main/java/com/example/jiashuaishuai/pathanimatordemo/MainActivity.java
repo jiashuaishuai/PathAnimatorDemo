@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void mClick(View view) {
+        Intent intent = new Intent(this, Main3Activity.class);
+        startActivity(intent);
+    }
+
     /*
 * 设置控件所在的位置YY，并且不改变宽高，
 * XY为绝对位置
